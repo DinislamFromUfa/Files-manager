@@ -180,6 +180,7 @@ if (isMainThread) {
 
 rl.on('error', (err) => {
     console.log('Fail: ', err);
+    console.log();
 });
 
 rl.on('close', () => {
